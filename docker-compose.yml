@@ -1,0 +1,14 @@
+---
+version: "3"
+services:
+ devopsdb:  
+   image: dbimage
+   ports:
+     - "3306"
+
+ application:
+   image: appimage2
+   ports:
+     - "8080"
+   depends_on:
+     - "devopsdb"
