@@ -13,4 +13,4 @@ services:
    depends_on:
      - "devopsdb"
    deploy:
-     - replicas: 2
+      replicas: 2
