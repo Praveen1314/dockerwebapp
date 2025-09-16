@@ -7,7 +7,7 @@ services:
      - "3306"
 
  application:
-   image: appimage2
+   image: appimage
    ports:
      - "8080"
    depends_on:
